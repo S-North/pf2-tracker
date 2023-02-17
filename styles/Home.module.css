@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.link {
+  cursor: pointer;
+  background-color: hsl(240, 100%, 99%);
+  padding: 0.2rem 0.5rem;
+}
+
+.link:hover {
+  background-color: hsl(240, 100%, 90%);
+}
