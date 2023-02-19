@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.header form {
+    display: flex;
+    gap: 0.5rem;
+    min-height: 0.5rem;
+    padding: 0.3rem;
+}
+
+.header input {
+    min-height: 2rem;
+    padding: 0.4rem;
+}
+
+.encounters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 15rem));
+    gap: 0.5rem;
+}
+
+.encounter {
+    background-color: ghostwhite;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 0.2rem;
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 0.5rem;
+    /* max-width: 10rem; */
+}
+
+.encounter button {
+    float: left;
+}

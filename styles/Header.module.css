@@ -1,0 +1,33 @@
+.header {
+    background-color: hsl(120, 36%, 80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(125, 206, 140);
+    box-shadow: 0 0 3px 2px rgb(205, 204, 204);
+  }
+  
+  .header ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .link {
+    background-color: hsl(240, 100%, 99%);
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+}
+
+.link:hover {
+    background-color: hsl(240, 100%, 90%);
+}
+
+.linkCurrent {
+    background-color: hsl(240, 15%, 86%);
+    border: 1px solid black;
+    padding: 0.2rem 0.5rem;
+ }
+
+ 

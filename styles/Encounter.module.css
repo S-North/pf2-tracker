@@ -1,5 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.header form {
+    display: flex;
+    gap: 0.5rem;
+    min-height: 0.5rem;
+    padding: 0.3rem;
+}
+
+.header input {
+    min-height: 2rem;
+    padding: 0.4rem;
+}
+
 .statblock {
     border: 1px solid grey;
     padding: 1rem;
     margin-top: 1rem;
+}
+
+.monsterSidebar {
+    float: right;
+    height: 100%;
+    padding-left: 0.5rem;
+    background-color: ghostwhite;
+}
+
+.monsterList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.monsterRow {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.combatantList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.combatantRow {
+    display: grid;
+    grid-template-columns: 3rem 1fr 3rem 3rem 5rem;
+    gap: 0.5rem;
+    /* text-align: center; */
+}
+
+.combatantRow input {
+    text-align: center;
+}
+
+.inputInit {
+    max-width: 3rem;
 }
